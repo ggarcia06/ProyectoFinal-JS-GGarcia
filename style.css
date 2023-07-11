@@ -1,0 +1,223 @@
+html,
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    height: 100%;
+
+}
+
+.body-login {
+
+    display: flex;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+input {
+
+    padding: 8px;
+
+    border-radius: 10px;
+
+    border: 1px solid rgb(220, 222, 228)
+}
+
+
+
+input:focus {
+
+    outline: none;
+
+    border: 1px solid #727C94;
+
+}
+
+
+
+label {
+
+    display: flex;
+
+    flex-direction: column;
+
+
+}
+
+
+
+#login-button {
+
+    padding: 12px;
+
+    background: rgb(63, 62, 62);
+
+    border: none;
+
+    color: white;
+
+    width: 50%;
+
+    border-radius: 10px;
+
+    align-self: center;
+
+    cursor: pointer;
+
+    font-weight: 700;
+
+}
+
+#app {
+
+    background-image: linear-gradient(rgb(218, 184, 92), rgb(218, 163, 92), rgb(218, 142, 92));
+    flex: 1;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.login-container {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-around;
+
+    width: 25%;
+
+    height: 50%;
+
+    padding: 30px;
+
+    border: 1px solid #727C94;
+
+    border-radius: 10px;
+
+    background-image: url(multimedia/muro-hormigon-gris.jpg);
+
+}
+
+
+
+.title {
+
+    font-weight: 400;
+
+    font-size: 24px;
+
+    color: #1f2937;
+
+    text-align: center;
+
+}
+
+
+
+.label {
+
+    font-weight: 600;
+
+    font-size: 14px;
+
+    margin: 0px 0px 10px 12px;
+
+    color: #1f2937;
+
+}
+
+/*--------------------------------services--------------------------*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(241, 238, 232);
+}
+
+#sign-out {
+    width: 50px;
+    height: 30px;
+    background-color: #ebb042;
+    color: rgb(247, 245, 242);
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 20px;
+    border-style: none;
+
+}
+
+.logo-img {
+    width: 150px;
+
+}
+
+body {
+    background-color:#ffa952;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-section {
+
+    padding: 30px;
+
+}
+
+.search-input {
+    width: 40%;
+}
+
+.services-buttons {
+
+    
+    margin-top: 30px;
+    
+    padding: 12px;
+
+    background: rgb(63, 62, 62);
+
+    border: none;
+
+    color: white;
+
+    width: 200px;
+
+    border-radius: 10px;
+
+    align-self: center;
+
+    cursor: pointer;
+
+    font-weight: 700;
+
+    align-items: start;
+}
+
+#app-equipos{
+    background-color:#ffa952;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+footer{
+    background-color:#ffa952;
+    height: 50px;
+}
+
+.card{
+    margin-top: 20px;
+}
