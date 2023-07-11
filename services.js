@@ -1,3 +1,5 @@
+// Aplicacion: muestra los equipos de la empresa de alquiler de autoelevadores, sus caracteristicas y fecha del proximo service, asi como tambien los dias restantes para realizarlo 
+
 import { Equipos } from '../clases.js';
 
 const bdAutoelevadores = [
@@ -57,6 +59,7 @@ const bdAutoelevadores = [
 ]
 
 
+// calcula los dias que faltan para el proximo service a partir del dia actual. 
 
 let diasRestantes = 0;
 let estadoEquipo = "";
@@ -75,6 +78,9 @@ function diasProxService(el) {
     // diasRestantes <= 15 && (estadoEquipo = "../multimedia/rojo.png");
 }
 
+
+//funcion de  redireccionamiento de pagina al cerrar sesion
+
 function RedireccionInicio() {
     location.href = "../index.html"
 }
@@ -92,11 +98,14 @@ const appEquipos = document.querySelector("#app-equipos");
 
 const allButton = document.querySelector("#all")
 
+// boton cerrar sesion
 
 signOutButton.addEventListener("click", () => {
     localStorage.clear()
     RedireccionInicio()
 })
+
+// codigo para buscar un equipo mediante el numero de serie
 
 searchInput.addEventListener("input", (e) => {
     equipoEncontrado = bdAutoelevadores.find((el) => el.numeroSerie === e.target.value)
@@ -127,6 +136,9 @@ searchButton.addEventListener("click", () => {
     `
     appEquipos.appendChild(tarjeta);
 })
+
+
+// funcion para mostrar todos los equipos 
 
 allButton.addEventListener("click", () => {
     appEquipos.innerHTML = ''
