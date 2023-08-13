@@ -172,11 +172,14 @@ body {
 .search-section {
 
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 .search-input {
-    width: 40%;
+    width: 100%;
 }
 
 .services-buttons {
@@ -206,11 +209,12 @@ body {
 }
 
 #app-equipos{
-    background-color:#ffa952;
+    background-color:#f5c683;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 20px;
 
 }
 footer{
@@ -220,4 +224,63 @@ footer{
 
 .card{
     margin-top: 20px;
+
+}
+/* .list-group-item{
+    background-color: #eee0cd;
+} */
+
+
+.img-semaforo{
+    width: 70px;
+}
+
+h2{
+    padding-top: 50px;
+}
+.mensaje{
+    padding: 100px;
+    color: #381d01;
+}
+
+/* formulario */
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #bdb8b8;
+    padding: 40px;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.labelform{
+    color:#1f1e1e;
+    font-size: 24px;
+}
+.inputform{
+width: 320px;
+padding: 10px;
+transition: 0.5s;
+}
+.inputform:focus, textarea:focus{
+    background-color: antiquewhite;
+    outline: none; /*saca el borde que viene por defecto en el input*/
+    width: 350px;
+
+}
+textarea{
+    width: 320px;
+    padding: 10px;
+    resize: none; /*para que el usuario no pueda manipular el tamaño del textarea*/
+    outline: none;
+    transition: 0.5s;
+}
+.inputform:hover, textarea:hover {
+    background-color: rgb(223, 221, 218);
 }

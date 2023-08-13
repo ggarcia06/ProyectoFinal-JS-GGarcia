@@ -1,0 +1,22 @@
+[
+    {
+        "url": "../multimedia/heli1-2.png",
+        "modelo": "AUTOELEVADOR ELECTRICO 1-2 HELI",
+        "capacidad": "1000/1500/1800/2000 Kg",
+        "torre": "Doble / triple 3000 a 6000 mm",
+        "bateria": " Plomo ácido 48 v",
+        "controlador": "Zapi / Curtis",
+        "rodado": "Semi sólido",
+        "accesorios": "Desplazador / Prensa bobina / Rotador / Prensa carton / Push pull / Doble palleter"
+    },
+    {
+        "url": "../multimedia/heli2-3.5.png",
+        "modelo": "AUTOELEVADOR ELECTRICO 2-3.5 HELI",
+        "capacidad": "2T - 3.5 T - Tracción delantera 4 ruedas",
+        "torre": "Doble / Triple desde 2000 a 6000 mm",
+        "bateria": "Ácido / Plomo 48/80 v",
+        "controlador": "Zapi Mosfet / Curtis",
+        "rodado": "Cushion / Neumático",
+        "accesorios": "Desplazador / Prensa bobina / Rotador / Prensa carton / Push pull / Doble palleter"
+    }
+]

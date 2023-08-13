@@ -1,0 +1,42 @@
+[
+   {
+      "url": "../multimedia/heli1-1.8.png",
+      "modelo": "AUTOELEVADOR COMBUSTION HELI 1-1.8",
+      "Capacidad": "2000/2500/3000/3500 Kg",
+      "motor": "Nissan (Nafta) / Isuzu (diesel)",
+      "torre": "Doble / triple 3000 a 6000 mm",
+      "transmision": "Automatica",
+      "rodado": "cushion / neumático / macizo / delantero dual",
+      "accesorios": "Desplazador / Prensa bobina / Rotador / Prensa carton / Push pull / Doble palleter"
+   },
+   {
+      "url": "../multimedia/heli2-3.5.png",
+      "modelo": "AUTOELEVADOR COMBUSTIÓN 2-3.5 HELI",
+      "capacidad": "2000/2500/3000/3500 Kg",
+      "motor": "Nissan (Nafta) / Isuzu (diesel)",
+      "torre": "Doble / triple 3000 a 6000 mm",
+      "transmision": "Automatica",
+      "rodado": "cushion / neumático / macizo / Duales",
+      "accesorios": "Desplazador / Prensa bobina / Rotador / Prensa carton / Push pull / Doble palleter"
+   },
+   {
+      "url": "../multimedia/heli4-10.png",
+      "modelo": "AUTOELEVADOR COMBUSTIÓN 4-10 HELI",
+      "capacidad": "4000/5000/6000/7000/8000/10000 Kg",
+      "motor": "Nissan (Nafta) / Mitsubishi (diesel) / Cummins (diesel)",
+      "torre": "Doble / triple 3000 a 6000 mm",
+      "transmision": "Automatica",
+      "rodado": "neumático / macizo / Duales",
+      "accesorios": "Desplazador / Prensa bobina / Rotador / Prensa carton / Push pull / Doble palleter"
+   },
+   {
+      "url": "../multimedia/heli12-46.png",
+      "modelo": "AUTOELEVADOR COMBUSTIÓN HELI 12-46",
+      "capacidad": "12000/13500/14000/16000/18000/20000/25000/28000/30000/32000/45000 (containero telescopico) Kg",
+      "motor": "Cummins (diesel) / Volvo (diesel)",
+      "torre": "Doble / triple 3000 a 6000 mm",
+      "transmision": "Automatica",
+      "rodado": "Neumático duales / Macizo duales",
+      "accesorios": "Desplazador / Prensa bobina / Rotador"
+   }
+]
